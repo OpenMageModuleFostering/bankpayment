@@ -26,7 +26,7 @@
         <tbody>
         <?php if ($_accountHolder = $_account->getAccountHolder()): ?>
             <tr>
-                <td class="bankcol1"><label><?php echo $this->__('Account holder') ?>:</label> </td>
+                <td class="bankcol1"><label><?php echo $this->__('Account holder') ?></label>: </td>
                 <td class="bankcol2"><?php echo $_accountHolder ?></td>
             </tr>
         <?php endif; ?>
@@ -38,13 +38,13 @@
         <?php endif; ?>
         <?php if ($_iban = $_account->getIban()): ?>
             <tr>
-                <td class="bankcol1"><label><?php echo $this->__('IBAN') ?>:</label> </td>
+                <td class="bankcol1"><label><?php echo $this->__('IBAN') ?></label>: </td>
                 <td class="bankcol2"><?php echo $_iban ?></td>
             </tr>
         <?php endif; ?>
         <?php if ($_bic = $_account->getBic()): ?>
             <tr>
-                <td class="bankcol1"><label><?php echo $this->__('BIC') ?>:</label> </td>
+                <td class="bankcol1"><label><?php echo $this->__('BIC') ?></label>: </td>
                 <td class="bankcol2"><?php echo $_bic ?></td>
             </tr>
         <?php endif; ?>
