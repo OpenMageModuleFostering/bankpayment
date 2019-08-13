@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>BankPayment</name>
-    <version>0.2.4</version>
+    <version>0.2.5</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -13,6 +13,9 @@ As the code was moved from local to community code space, you have to remove the
 
 
 Changelog
+
+0.2.5
+- added Polish locale
 
 0.2.4
 - added Greek and Italian locales
@@ -37,6 +40,10 @@ As the code was moved from local to community code space, you have to remove the
 
 
 Changelog
+
+0.2.5
+- added Polish locale
+
 0.2.4
 - added Greek and Italian locales
 
@@ -55,9 +62,9 @@ Changelog
 0.2.0
 - first public release</notes>
     <authors><author><name>Andrej Sinicyn</name><user>auto-converted</user><email>andrej.sinicyn@gmx.de</email></author></authors>
-    <date>2008-07-28</date>
-    <time>12:51:27</time>
-    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="bankpayment"><file name="form.phtml" hash="a93a004ff9187cc9bee25650c4a1867a"/><file name="info.phtml" hash="d0a16fd258a7201e5788a8f5610abf31"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="bankpayment"><file name="form.phtml" hash="a3fb6613cea6ceb573c4c5092c3752d2"/><file name="info.phtml" hash="67a25035b4dd17e5710657a1ab8309eb"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="de_DE"><file name="Mage_BankPayment.csv" hash="1bcaf3d87e3b8a0fee75e9f47a9fcf1e"/></dir><dir name="el_GR"><file name="Mage_BankPayment.csv" hash="04f688f5350175a3d843701c3e8697eb"/></dir><dir name="en_US"><file name="Mage_BankPayment.csv" hash="76cc581fe3bc3602baa20447812c7d0b"/></dir><dir name="it_IT"><file name="Mage_BankPayment.csv" hash="af864aaf638ce296c623908d0407c8cc"/></dir><dir name="nb_NO"><file name="Mage_BankPayment.csv" hash="e35eb2ac59de21fc920bc1e26aa28f27"/></dir><dir name="nl_NL"><file name="Mage_BankPayment.csv" hash="328e234ddeb080218073218be19a4d07"/></dir><dir name="pt_BR"><file name="Mage_BankPayment.csv" hash="0e0368453a2efb3ac77965e59744cac6"/></dir></target><target name="magecommunity"><dir name="Mage"><dir name="BankPayment"><dir name="Block"><file name="Form.php" hash="124cc6bd01d2e8e39cd178d74369712b"/><file name="Info.php" hash="fdeffa069bd9759f547235cc3716a058"/></dir><dir name="etc"><file name="config.xml" hash="e7bbd8f8a78ab4e1bcdf0579451e82c9"/><file name="system.xml" hash="017122a45aba0623ebb217c969d5b96c"/></dir><dir name="Model"><file name="BankPayment.php" hash="e93de86da934dcbf06bf75659b9d40c2"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mage_BankPayment.xml" hash="f5bef86825ee161b455a76270a219d8a"/></dir></target></contents>
+    <date>2008-08-11</date>
+    <time>08:35:28</time>
+    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="bankpayment"><file name="form.phtml" hash="a93a004ff9187cc9bee25650c4a1867a"/><file name="info.phtml" hash="d0a16fd258a7201e5788a8f5610abf31"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="bankpayment"><file name="form.phtml" hash="a3fb6613cea6ceb573c4c5092c3752d2"/><file name="info.phtml" hash="67a25035b4dd17e5710657a1ab8309eb"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="de_DE"><file name="Mage_BankPayment.csv" hash="1bcaf3d87e3b8a0fee75e9f47a9fcf1e"/></dir><dir name="el_GR"><file name="Mage_BankPayment.csv" hash="04f688f5350175a3d843701c3e8697eb"/></dir><dir name="en_US"><file name="Mage_BankPayment.csv" hash="76cc581fe3bc3602baa20447812c7d0b"/></dir><dir name="it_IT"><file name="Mage_BankPayment.csv" hash="af864aaf638ce296c623908d0407c8cc"/></dir><dir name="nb_NO"><file name="Mage_BankPayment.csv" hash="e35eb2ac59de21fc920bc1e26aa28f27"/></dir><dir name="nl_NL"><file name="Mage_BankPayment.csv" hash="328e234ddeb080218073218be19a4d07"/></dir><dir name="pl_PL"><file name="Mage_BankPayment.csv" hash="5df410798af3b7b6f4d895f147266018"/></dir><dir name="pt_BR"><file name="Mage_BankPayment.csv" hash="0e0368453a2efb3ac77965e59744cac6"/></dir></target><target name="magecommunity"><dir name="Mage"><dir name="BankPayment"><dir name="Block"><file name="Form.php" hash="124cc6bd01d2e8e39cd178d74369712b"/><file name="Info.php" hash="fdeffa069bd9759f547235cc3716a058"/></dir><dir name="etc"><file name="config.xml" hash="e7bbd8f8a78ab4e1bcdf0579451e82c9"/><file name="system.xml" hash="017122a45aba0623ebb217c969d5b96c"/></dir><dir name="Model"><file name="BankPayment.php" hash="e93de86da934dcbf06bf75659b9d40c2"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mage_BankPayment.xml" hash="f5bef86825ee161b455a76270a219d8a"/></dir></target></contents>
     <compatible/>
     <dependencies/>
 </package>
