@@ -17,6 +17,7 @@
 
 class Mage_BankPayment_Model_BankPayment extends Mage_Payment_Model_Method_Abstract
 {
+
     /**
     * unique internal payment method identifier
     * 
@@ -61,9 +62,10 @@ class Mage_BankPayment_Model_BankPayment extends Mage_Payment_Model_Method_Abstr
     {
         return intval($this->getConfigData('paywithinxdays'));
     }
-    
+
     public function getCustomText()
     {
-        return $this->getConfigData('customtext');
+        return nl2br($this->getConfigData('customtext'));
     }
+
 }

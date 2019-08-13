@@ -16,7 +16,7 @@
  */
 
 ?>
-<ul id="payment_form_<?php echo $this->getMethodCode() ?>" style="display:none">
+<ul id="payment_form_<?php echo $this->getMethodCode(); ?>" style="display:none">
     <li>
         <div class="input-box">
             <?php if ($this->getMethod()->getPayWithinXDays() > 0): ?>
@@ -24,27 +24,35 @@
             <?php else: ?>
                 <?php echo $this->__('Please transfer the money to the following bank account'); ?>:
             <?php endif; ?><br /><br />
+            <table>
+                <tbody>
             <?php if ($this->getMethod()->getAccountHolder()): ?>
-                <?php echo '<label>'.$this->__('Account holder').'</label>: '.$this->getMethod()->getAccountHolder() ?><br />
+                <?php echo '<tr><td><label>' . $this->__('Account holder') . '</label>:</td><td>' . $this->getMethod()->getAccountHolder() . '</td></tr>'; ?>
             <?php endif; ?>
             <?php if ($this->getMethod()->getAccountNumber()): ?>
-                <?php echo '<label>'.$this->__('Account number').'</label>: '.$this->getMethod()->getAccountNumber() ?><br />
+                <?php echo '<tr><td><label>' . $this->__('Account number') . '</label>:</td><td>' . $this->getMethod()->getAccountNumber() . '</td></tr>'; ?>
             <?php endif; ?>
             <?php if ($this->getMethod()->getSortCode()): ?>
-                <?php echo '<label>'.$this->__('Sort code').'</label>: '.$this->getMethod()->getSortCode() ?><br />
+                <?php echo '<tr><td><label>' . $this->__('Sort code') . '</label>:</td><td>' . $this->getMethod()->getSortCode() . '</td></tr>'; ?>
             <?php endif; ?>
             <?php if ($this->getMethod()->getBankName()): ?>
-                <?php echo '<label>'.$this->__('Bank name').'</label>: '.$this->getMethod()->getBankName() ?><br />
+                <?php echo '<tr><td><label>' . $this->__('Bank name') . '</label>:</td><td>' . $this->getMethod()->getBankName() . '</td></tr>'; ?>
             <?php endif; ?>
+                </tbody>
+            <table>
             <?php if ($this->getMethod()->getIBAN() && $this->getMethod()->getBIC()): ?>
                 <br /><br />
                 <?php echo $this->__('For international transfers please use also following data') ?>:<br /><br />
-                <?php echo '<label>'.$this->__('IBAN').'</label>: '.$this->getMethod()->getIBAN() ?><br />
-                <?php echo '<label>'.$this->__('BIC').'</label>: '.$this->getMethod()->getBIC() ?><br />
+                <table>
+                    <tbody>
+                    <?php echo '<tr><td><label>' . $this->__('IBAN') . '</label>:</td><td>' . $this->getMethod()->getIBAN() . '</td></tr>'; ?>
+                    <?php echo '<tr><td><label>' . $this->__('BIC') . '</label>:</td><td>' . $this->getMethod()->getBIC() . '</td></tr>'; ?>
+                    </tbody>
+                </table>
             <?php endif; ?>
             <?php if ($this->getMethod()->getCustomText()): ?>
                 <br />
-                <?php echo $this->getMethod()->getCustomText() ?><br />
+                <?php echo $this->getMethod()->getCustomText(); ?><br />
             <?php endif; ?>
         </div>
     </li>
