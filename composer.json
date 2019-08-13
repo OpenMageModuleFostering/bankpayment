@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/BankPayment",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "This module adds bank prepayment method, which notifies the buyer to which bank account he has to transfer the money.",
+    "authors": [
+    {
+        "name": "Andrej Sinicyn",
+        "email": "andrej.sinicyn@gmx.de"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
