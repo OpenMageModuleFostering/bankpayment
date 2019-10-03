@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/BankPayment",
+    "name": "openmage-module-fostering\/bankpayment",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Vorkasse - Bank Prepayment module which notifies the buyer to which bank account he has to transfer the money.",
     "authors": [
