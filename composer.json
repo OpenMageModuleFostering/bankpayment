@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/BankPayment",
+    "name": "OpenMageModuleFostering\/BankPayment",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Vorkasse - Bank Prepayment module which notifies the buyer to which bank account he has to transfer the money.",
     "authors": [
-    {
-        "name": "Phoenix Media GmbH",
-        "email": "bjoern.kraus@phoenix-media.eu"
-    }
-],
+        {
+            "name": "Phoenix Media GmbH",
+            "email": "bjoern.kraus@phoenix-media.eu"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
